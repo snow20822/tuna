@@ -1,0 +1,219 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  line-height: 1;
+}
+
+body {
+  position: relative;
+  font-family: ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3 {
+  font-family: 微軟正黑體;
+}
+
+#resumeView {
+  overflow-y: scroll;
+  overflow-x: auto;
+}
+
+#mainBody {
+  width: 680px;
+  margin: 20px auto;
+}
+
+#page-footer {
+  text-align: center;
+}
+
+.page-logo {
+  padding-left: 5px;
+}
+
+.resumeView-section:before, .resumeView-section:after {
+  content: " ";
+  display: table;
+}
+.resumeView-section:after {
+  clear: both;
+}
+.resumeView-section + .resumeView-section {
+  margin-top: 30px;
+}
+
+.resumeView-article {
+  background-color: #fff;
+  border: 1px solid #EAEDF0;
+  padding: 10px 20px;
+  margin: 10px 0;
+}
+
+.resumeView-title {
+  position: relative;
+  border-bottom: 1px solid #EAEDF0;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+.resumeView-title:after {
+  content: '';
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid #333;
+}
+.resumeView-title h2 {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.resumeView-title-sub {
+  margin-top: 15px;
+}
+.resumeView-title-sub h2 {
+  font-size: 15px;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #eee;
+  padding: 0 11px;
+  margin: 0 -2px;
+}
+
+h3 {
+  position: relative;
+  padding-left: 10px;
+}
+h3:before {
+  content: '-';
+  position: absolute;
+  left: 0;
+}
+
+.txt-sub {
+  font-size: 13px;
+  font-weight: normal;
+  color: #666;
+  padding-left: 5px;
+}
+
+.resumeView-content + .resumeView-content {
+  margin-top: 12px;
+}
+
+.resumeView-list {
+  padding: 5px 0 0 10px;
+}
+.resumeView-list li {
+  display: table;
+}
+.resumeView-list label {
+  display: table-cell;
+  width: 70px;
+  vertical-align: top;
+  padding-right: 10px;
+}
+.resumeView-list span > img {
+  display: inline-block;
+  width: 32%;
+  margin-right: 1.33%;
+}
+.resumeView-list.w50 li {
+  float: left;
+  width: 50%;
+}
+
+.resumeView-table {
+  width: 100%;
+}
+.resumeView-table th, .resumeView-table td {
+  padding: 5px;
+}
+.resumeView-table th {
+  text-align: left;
+  background-color: #FAFAFA;
+  border-bottom: 1px solid #eee;
+}
+.resumeView-table td {
+  border-bottom: 1px solid #eee;
+}
+
+.resumeView-autobiography {
+  float: left;
+  width: 70%;
+}
+
+.resumeView-photo {
+  float: right;
+  margin-top: 10px;
+}
+.resumeView-photo img {
+  width: 10rem;
+  height: 10rem;
+  background-color: #EAEDF0;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=resume.css.map */
